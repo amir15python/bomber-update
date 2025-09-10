@@ -79,5 +79,6 @@ def sms():
             bamaD = "cellNumber=0"+number
             post("https://bama.ir/signin-checkforcellnumber", headers=bamaH, data=bamaD)
             print(Fore.RED+"SMS SENDED :)")
-          print(Fore.PURPLE+"the sms bomber is end")
+          print("the sms bomber is end")
+
 sms()
